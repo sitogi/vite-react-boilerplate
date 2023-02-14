@@ -1,10 +1,14 @@
-import '@testing-library/jest-dom';
-
 import { render, screen } from '@testing-library/react';
 
 import { App } from '~/App';
 
 test('render App component', () => {
-  render(<App />);
+  // Arrange
+  const sut = <App />;
+
+  // Action
+  render(sut);
+
+  // Assert
   expect(screen.getByText('Hello Vite React boilerplate!')).toBeInTheDocument();
 });
