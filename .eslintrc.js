@@ -33,7 +33,7 @@ module.exports = {
         groups: ['builtin', 'external', 'parent', 'sibling', 'index', 'object', 'type'],
         pathGroups: [
           {
-            pattern: '{react,react-dom/**,react-router-dom}',
+            pattern: '{react,react-dom/**}',
             group: 'builtin',
             position: 'before',
           },
