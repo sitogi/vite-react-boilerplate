@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
 import { App } from '~/App';
 
@@ -11,8 +9,8 @@ export default {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
   },
-} as ComponentMeta<typeof App>;
+} as Meta<typeof App>;
 
-const Template: ComponentStory<typeof App> = () => <App />;
-
-export const Initial = Template.bind({});
+export const Default: StoryObj = {
+  name: '通常表示',
+};
