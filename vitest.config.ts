@@ -11,4 +11,9 @@ export default defineConfig({
   },
   plugins: [react()],
   resolve: resolve,
+  css: {
+    modules: {
+      localsConvention: 'camelCaseOnly',
+    },
+  },
 });
