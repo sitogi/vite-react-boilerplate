@@ -19,8 +19,13 @@
     "paths": {
       "~/*": [
         "./*"
-      ]
-    }
+      ],
+    },
+    "plugins": [
+      {
+        "name": "eslint-plugin-import-access"
+      }
+    ]
   },
   "include": [
     "**/*.ts",
