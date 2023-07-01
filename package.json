@@ -43,7 +43,7 @@
     "eslint-plugin-react": "^7.32.0",
     "eslint-plugin-storybook": "^0.6.12",
     "html-webpack-plugin": "^5.5.1",
-    "jsdom": "^21.1.0",
+    "jsdom": "^22.1.0",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3",
     "simple-git-hooks": "^2.8.1",
