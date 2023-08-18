@@ -12,4 +12,9 @@ export const resolve = {
 export default defineConfig({
   plugins: [react()],
   resolve,
+  css: {
+    modules: {
+      localsConvention: 'camelCaseOnly',
+    },
+  },
 });
