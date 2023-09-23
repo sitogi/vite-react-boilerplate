@@ -10,6 +10,9 @@ export const resolve = {
 // https://vitejs.dev/config/
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
+  server: {
+    open: true,
+  },
   plugins: [react()],
   resolve,
   css: {
