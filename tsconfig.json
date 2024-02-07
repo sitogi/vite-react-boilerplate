@@ -19,13 +19,14 @@
     "paths": {
       "~/*": [
         "./*"
-      ],
+      ]
     },
     "plugins": [
       {
         "name": "eslint-plugin-import-access"
       }
-    ]
+    ],
+    "types": ["vitest/globals"],
   },
   "include": [
     "**/*.ts",
