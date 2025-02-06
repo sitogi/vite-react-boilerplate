@@ -6,11 +6,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest",
-    "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build",
-    "prepare": "npx simple-git-hooks || :",
-    "preinstall": "npx -y only-allow npm"
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -21,42 +17,14 @@
     "@testing-library/react": "^14.2.1",
     "@types/react": "^18.2.54",
     "@types/react-dom": "^18.2.18",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "8.56.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-import-access": "^2.1.2",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.33.2",
     "jsdom": "^24.0.0",
-    "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5",
-    "simple-git-hooks": "^2.9.0",
     "stylelint": "^16.2.1",
     "stylelint-config-recess-order": "^4.4.0",
     "stylelint-config-standard": "^36.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.12",
-    "vite-plugin-checker": "^0.6.4",
-    "vitest": "^1.2.2"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "prettier --write --loglevel=warn",
-      "eslint --fix --quiet"
-    ],
-    "src/**/*.{ts,tsx}": [
-      "bash -c 'npx tsc --pretty --noEmit'"
-    ],
-    "src/**/*.css": [
-      "stylelint --fix --quiet"
-    ]
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
   }
 }
