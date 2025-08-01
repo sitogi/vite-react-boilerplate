@@ -1,6 +1,5 @@
-import { JSX } from 'react';
-
-import styles from '~/App.module.css';
+import type { JSX } from 'react';
+import styles from '@/App.module.css';
 
 export const App = (): JSX.Element => {
   return (
